@@ -78,12 +78,6 @@ img {
       padding: 0;
       box-sizing: border-box;
   }
-  
-  .clearfix::after {
-      content: "";
-      display: table;
-      clear: both;
-  }
 
 
   .row {
@@ -105,4 +99,31 @@ img {
   margin: 25px 0px;
   padding: 0px 10px;
 }
+
+/* BLOCCO STEPS */
+  #steps {
+    padding: 10px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+/* BLOCCO PERCHE */
+  #why {
+  background-color: #f2f2cd;
+  padding: 20px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 25px;
+  }
+
 }
